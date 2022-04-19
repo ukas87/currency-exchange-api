@@ -25,7 +25,8 @@ http://localhost:8080/api/current/PLN/GBP
 ```
 #### JSON Result
 ```json
-{"base":"PLN",
+{
+"base":"PLN",
 "target":"GBP",
 "rate":0.1785,
 "date":"2022-04-15"
@@ -50,7 +51,8 @@ http://localhost:8080/api/historic/USD/GBP/2022-02-02
 ```
 #### JSON Result
 ```json
-{"base":"USD",
+{
+"base":"USD",
 "target":"GBP",
 "rate":0.7367,
 "date":"2022-02-22"
@@ -77,19 +79,22 @@ http://localhost:8080/api/between/USD/GBP/2022-02-23/2022-02-25
 #### JSON Result
 ```json
 [
-    {"base":"USD",
+    {
+    "base":"USD",
      "target":"GBP",
      "rate":0.7393,
      "date":"2022-02-23"
      },
 
-    {"base":"USD",
+    {
+    "base":"USD",
     "target":"GBP",
     "rate":0.7477,
     "date":"2022-02-24"
     },
 
-    {"base":"USD",
+    {
+    "base":"USD",
     "target":"GBP",
     "rate":0.7459,
     "date":"2022-02-25"
